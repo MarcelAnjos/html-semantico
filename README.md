@@ -41,3 +41,4 @@ Salgado | Doce
 :--:|:--:
 Misto | Pudim
 Coxinha | Brigadeiro
+Bauro | Cocada

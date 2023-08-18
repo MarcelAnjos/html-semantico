@@ -40,3 +40,4 @@ System.out.println('Olá, mundo em java!');
 Salgado | Doce
 :--:|:--:
 Misto | Pudim
+Coxinha | Brigadeiro

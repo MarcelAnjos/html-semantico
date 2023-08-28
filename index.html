@@ -4,12 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            color:crimson;
+        }
+    </style>
 </head>
-<body>
-    <header>     
+<body style="color: darkgreen;">
+    <header id="topo-pagina">  
+        <nav>
+            <!-- Lista não ordenada -->
+            <ul>
+                <!-- Item de lista -->
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+
+
+        </nav>    
         <h1>HTML Semântico</h1>
         <h2>Dando significado às estrutas</h2>
         <p>Vamos utilizar estruturas semânticas para marcar o conteúdo da página</p>
     </header>
+    <div>
+        Titulo principal
+    </div>
+    <article>
+        <header>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor nobis commodi ullam, reiciendis iusto doloribus amet minus, perferendis accusamus quis eaque totam aperiam! Vitae labore eaque veniam laborum, aperiam ab nobis quaerat quisquam eius corrupti repellat necessitatibus illum exercitationem!
+            </p>
+        </header>
+    </article>  
+    
+    <section id="sobre-nos">
+
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo temporibus reiciendis vitae facilis cumque, omnis ad, porro maxime enim quo quas hic deleniti voluptate.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti nam temporibus.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio impedit maiores ab? Numquam, nemo culpa maxime saepe illum molestiae doloribus illo cum ipsam vitae dolore rerum similique, ab odit iure inventore autem at delectus exercitationem earum! Doloremque a eum facere quo dolorum.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias itaque quisquam, architecto minus neque soluta quidem quas ullam, nihil ut consectetur quis impedit a? Ea architecto ut dolore dolor minus quia alias?</p>
+        <p>
+            <a href="#topo-pagina">Home</a>
+        </p>
+    </section>
+   
+    <footer>
+        <!-- Proíbido
+        <header></header> -->
+        <p>Link para o meu GitHub:     
+            <a href="https://github.com/MarcelAnjos">Git</a>
+        </p>
+
+        <p>
+            <a href="#topo-pagina">Voltar para o topo da pagina</a>
+        </p>
+    </footer>
 </body>
 </html>

@@ -4,6 +4,8 @@ Tese do **negrito**
 
 Teste do *italico*
 
+link do deploy:<https://marcelanjos.github.io/html-semantico/>
+
 [Google](https://google.com/)
 
 <https://google.com.br>

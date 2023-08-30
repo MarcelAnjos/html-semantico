@@ -4,12 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+            aside {
+      float:right;
+      width: 200px;
+      background-color: #ffffff;
+      padding: 20px;
+      margin-left: 20px;
+    }
+    </style>
 </head>
-<body>
-    <header>     
-        <h1>HTML Semântico</h1>
-        <h2>Dando significado às estrutas</h2>
-        <p>Vamos utilizar estruturas semânticas para marcar o conteúdo da página</p>
-    </header>
+<body style="color: rgb(0, 0, 0);">
+    <header id="topo-pagina"> 
+        <h1>Explorando as tags semânticas HTML</h1><hr> 
+        <aside>
+            <!-- Lista não ordenada -->
+            <ul>
+                <!-- Item de lista -->
+                <li>
+                    <a href="#introducao">Introdução</a>
+                </li>
+
+                <li>
+                    <a href="#acessibilidade">Acessibilidade</a>
+                </li>
+                <li>
+                    <a href="#legibilidade">Legebilidade</a>
+                </li>
+                <li>
+                    <a href="#exemplos">Exemplos</a>
+                </li>
+            </ul>
+        </aside>
+       
+      <section id="introducao">
+        <article>
+            <h3>O que são tags SEMÂNTICAS? </h2>
+            <p>
+                Semântica HTML é o uso correto das tags HTML para indicar o significado do conteúdo de uma página web. Isso significa que cada tag deve ser usada de forma apropriada para descrever o que o conteúdo representa.
+            </p>
+
+            <p>
+                Por exemplo, para escrevermos um título, devemos utilizar a tag &lt;h3&gt;, enquanto um parágrafo deve ser envolvido pela tag &lt;p&gt;. Quando usamos as tags corretas para cada tipo de conteúdo, a página se torna mais acessível e legível para os usuários e mecanismos de busca.
+            </p>
+        </article>
+
+      </section>
+      
+      <section id="acessibilidade">
+        <article>
+            <h3>Por que a Semântica HTML é importante para acessibilidade?
+            </h3>
+            <p>
+                A Semântica HTML é importante para a acessibilidade porque permite que as pessoas com deficiências visuais ou outras limitações possam navegar pelas páginas com mais facilidade.
+            </p>
+            <p>
+                As tags semânticas permitem que os mecanismos de busca identifiquem facilmente o título da página, o conteúdo principal e as seções secundárias. Isso ajuda a melhorar a relevância da página nos resultados de busca.
+            </p>
+
+        </article>
+
+      </section>
+    
+      <section id="legibilidade">
+        <article>
+            <h3>Como a semântica afeta a legibilidade do código?</h3>
+            <p>
+                A Semântica HTML afeta a legibilidade do código porque torna o código mais fácil de entender e interpretar. Quando utilizamos as tags semânticas corretamente, o código se torna mais legível e estruturado, permitindo que outros desenvolvedores possam entender e modificar nosso código com mais facilidade. Isso é especialmente importante em projetos grandes e complexos.
+            </p>
+        </article>
+        
+      </section>
+      
+      <section id="exemplos">
+          <article>
+              <h3>Diferença de um código com e sem semântica</h3>
+              <h3>Código sem semântica:</h3>
+              <details>
+                <summary>
+                    <strong>
+                        Clique para ver o código      
+                    </strong>
+                </summary>
+
+                <figure>
+                    <img src="https://i.imgur.com/Hm6wS4I.jpeg" alt="Código sem semântica">
+                </figure>
+
+              </details>
+
+              <h3>Código com semântica:</h3>
+              <details>
+                <summary>
+                    <strong>                       
+                        Clique para ver o código
+                    </strong>
+                </summary>
+
+                <figure>
+                    <img src="https://i.imgur.com/b5LiWVq.jpg" alt="Código com semântica">
+                </figure>
+
+              </details>
+
+        </article>      
+     </section>
+     <br>
+        
+     <footer>
+        <a href="./index.html">HOME</a>
+        <p>&copy; 2023 MarcelDev. Todos os direitos reservados.</p>
+     </footer>
+        
 </body>
 </html>

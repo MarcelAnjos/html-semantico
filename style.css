@@ -1,4 +1,67 @@
 
 html {
-    scroll-behavior: smooth; /* comportamento do scroll: suacve */
+    scroll-behavior: smooth; /* comportamento do scroll: suave */
  }
+
+body {
+    margin: 20px 50px; /*sentido horario da pagina*/
+    text-align: justify;
+    background-color: #e8e5e592;
+}
+
+.title {
+    color: #C765B6  ;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-title{
+    color: #FBD7E3;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-secao {
+    color: #98FABD; 
+    line-height: 1.3;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.subtitulo-de-artigo {
+    color: #1F948E;
+    line-height: 1.3;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+p{
+    line-height: 1.3;
+    color:#002AFF ;
+}
+
+.exemplos{
+    color: #FC95C6;
+}
+
+.paragrafo-de-artigo {
+        background-color: #BDDAFF;
+        padding: 20px 20px 0px 20;
+        
+}
+
+article {
+    border: 4px solid #FC95C6;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 60px 20px 30px 50px;
+}

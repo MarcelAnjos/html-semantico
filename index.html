@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <style>
             aside {
       float:right;
+      padding: 9px;
       width: 200px;
-      background-color: #ffffff;
-      padding: 20px;
-      margin-left: 20px;
+      margin-left: 30px;
     }
     </style>
 </head>
 <body style="color: rgb(0, 0, 0);">
     <header id="topo-pagina"> 
-        <h1>Explorando as tags semânticas HTML</h1><hr> 
+        <h1 class="title">Explorando as tags semânticas HTML</h1><hr> 
         <aside>
             <!-- Lista não ordenada -->
             <ul>
@@ -40,12 +40,12 @@
        
       <section id="introducao">
         <article>
-            <h3>O que são tags SEMÂNTICAS? </h2>
-            <p>
+            <h1 class="titulo-de-secao">O que são tags SEMÂNTICAS? </h1>
+            <p class="paragrafo-de-artigo">
                 Semântica HTML é o uso correto das tags HTML para indicar o significado do conteúdo de uma página web. Isso significa que cada tag deve ser usada de forma apropriada para descrever o que o conteúdo representa.
             </p>
 
-            <p>
+            <p class="paragrafo-de-artigo">
                 Por exemplo, para escrevermos um título, devemos utilizar a tag &lt;h3&gt;, enquanto um parágrafo deve ser envolvido pela tag &lt;p&gt;. Quando usamos as tags corretas para cada tipo de conteúdo, a página se torna mais acessível e legível para os usuários e mecanismos de busca.
             </p>
         </article>
@@ -54,12 +54,12 @@
       
       <section id="acessibilidade">
         <article>
-            <h3>Por que a Semântica HTML é importante para acessibilidade?
-            </h3>
-            <p>
+            <h1 class="titulo-de-secao">Por que a Semântica HTML é importante para acessibilidade?
+            </h1>
+            <p class="paragrafo-de-artigo">
                 A Semântica HTML é importante para a acessibilidade porque permite que as pessoas com deficiências visuais ou outras limitações possam navegar pelas páginas com mais facilidade.
             </p>
-            <p>
+            <p class="paragrafo-de-artigo">
                 As tags semânticas permitem que os mecanismos de busca identifiquem facilmente o título da página, o conteúdo principal e as seções secundárias. Isso ajuda a melhorar a relevância da página nos resultados de busca.
             </p>
 
@@ -69,18 +69,18 @@
     
       <section id="legibilidade">
         <article>
-            <h3>Como a semântica afeta a legibilidade do código?</h3>
-            <p>
+            <h1 class="titulo-de-secao">Como a semântica afeta a legibilidade do código?</h1>
+            <p class="paragrafo-de-artigo">
                 A Semântica HTML afeta a legibilidade do código porque torna o código mais fácil de entender e interpretar. Quando utilizamos as tags semânticas corretamente, o código se torna mais legível e estruturado, permitindo que outros desenvolvedores possam entender e modificar nosso código com mais facilidade. Isso é especialmente importante em projetos grandes e complexos.
-            </p>
+            </p class="paragrafo-de-artigo">
         </article>
         
       </section>
       
-      <section id="exemplos">
+      <section class="exemplos" id="exemplos">
           <article>
-              <h3>Diferença de um código com e sem semântica</h3>
-              <h3>Código sem semântica:</h3>
+              <h1 class="article-title">Diferença de um código com e sem semântica</h1>
+              <h2 class="subtitulo-de-artigo">Código sem semântica:</h2>
               <details>
                 <summary>
                     <strong>
@@ -94,7 +94,7 @@
 
               </details>
 
-              <h3>Código com semântica:</h3>
+              <h2 class="subtitulo-de-artigo">Código com semântica:</h2>
               <details>
                 <summary>
                     <strong>                       

@@ -75,9 +75,14 @@ article {
 }
 
 li {
-    color: #6A28FF;
+    color: var(--cor-fundo);
 }
 
 a{
-    color: #1F51C4;
+    color: var(--cor-quartenaria);
+    text-decoration: dotted;
+}
+
+.menu-principal li {
+    background-color: var(--cor-secundaria);
 }

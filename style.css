@@ -94,5 +94,14 @@ a{
 }
 
 .paragrafo-de-artigo:last-of-type {
-    border-radius: 0px 0px 20px 0;
+    border-radius: 0px 0px 20px 0px;
+}
+.paragrafo-de-artigo:only-of-type {
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+section#artigos {
+    display: flex;
+    flex-direction: row;
 }

@@ -4,6 +4,8 @@
     --cor-terciaria: #DB63E6;
     --cor-quartenaria: #E75CFF;
     --cor-fundo: #e3e3e3;
+    --fonte-primaria: 'Times New Roman', serif ;
+    --fonte-secundaria: Arial, Helvetica, sans-serif ;
 }
 
 
@@ -15,6 +17,7 @@ body {
     margin: 20px 50px; /*sentido horario da pagina*/
     text-align: justify;
     background-color: var(--cor-fundo);
+    font-family: var(--fonte-primaria);
 }
 
 .title {
@@ -22,34 +25,17 @@ body {
     line-height: 2;
     font-weight: bold;
     font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria)
 }
 
-.article-title{
-    color: var(--cor-terciaria);
-    line-height: 2;
-    font-weight: bold;
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .titulo-de-secao {
     color: var(--cor-primaria); 
     line-height: 1.3;
     font-weight: bold;
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria)
     
-}
-
-.subtitulo-de-artigo {
-    color: #1F948E;
-    line-height: 1.3;
-    font-weight: bold;
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-
 }
 
 p{
@@ -62,12 +48,7 @@ p{
     color: #6A28FF ;
 }
 
-.paragrafo-de-artigo {
-        background-color: #BDDAFF;
-        padding: 20px 20px 0px 2;
-        
-}
-
+/*Estilos de artigos*/
 article {
     border: 4px solid #FC95C6;
     padding: 30px;
@@ -75,19 +56,27 @@ article {
     border-radius: 60px 20px 30px 50px;
 }
 
-li {
-    color: var(--cor-fundo);
+.paragrafo-de-artigo {
+    background-color: #BDDAFF;
+    padding: 20px 20px 0px 2;
+    
 }
+.subtitulo-de-artigo {
+    color: #1F948E;
+    line-height: 1.3;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
 
-a{
-    color: var(--cor-quartenaria);
-    text-decoration: dotted;
 }
-
-.menu-principal li {
-    background-color: var(--cor-secundaria);
+.article-title{
+    color: var(--cor-terciaria);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: var(--fonte-secundaria);
 }
-
 .paragrafo-de-artigo:first-of-type {
     border-radius: 20px 0px 0px 0px
     ;
@@ -98,6 +87,32 @@ a{
 }
 .paragrafo-de-artigo:only-of-type {
     border-radius: 20px 0px 20px 0px;
+}
+ 
+
+
+li {
+    color: var(--cor-fundo);
+    font-size: 24px;
+}
+
+a{
+    color: var(--cor-quartenaria);
+    text-decoration: dotted;
+    
+}
+
+.menu-principal li {
+    background-color: var(--cor-secundaria);
+    padding: 0 20px;
+    line-height: 60px;
+    display: flex;
+    transition:
+}
+
+.menu-principal li:hover {
+    background-color: #7c1a85;
+
 }
 
 
